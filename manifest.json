@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "Highlighter",
+    "description": "This extension allows you to highlight selected text on any webpage in any color.",
+    "version": "1.0",
+    "permissions": ["activeTab"],
+    "content_scripts": [{
+        "matches": ["<all_urls>"],
+        "js": ["highlighter.js"]
+    }],
+    "browser_action": {
+        "default_title": "Highlighter",
+        "default_popup": "popup.html"
+    }
+}
