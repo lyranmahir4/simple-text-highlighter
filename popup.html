@@ -1,17 +1,30 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <title>Highlighter</title>
-</head>
-<body>
+    
+    <link rel="stylesheet" href="app.css" />
+  </head>
+  <body>
     <h1>Highlighter</h1>
-    <label for="bg-color">Background Color:</label>
-    <input type="color" id="bg-color" name="bg-color" value="#ff0000">
-    <br>
-    <label for="text-color">Text Color:</label>
-    <input type="color" id="text-color" name="text-color" value="#ffffff">
-    <br>
-    <button id="highlight-button">Highlight</button>
+    <div class="main-container">
+      <div class="left">
+        <label for="bg-color">Background Color</label>
+        <br />
+        <input type="color" id="bg-color" name="bg-color" value="#ff0000" />
+      </div>
+      <div class="right">
+        <label for="text-color">Text Color</label>
+        <br />
+        <input type="color" id="text-color" name="text-color" value="#ffffff" />
+      </div>
+      <br />
+    </div>
+
+    <button class="btn-highlight" id="highlight-button">Highlight</button>
+
+    <p>by Mahir Morshed</p>
+
     <script src="popup.js"></script>
-</body>
+  </body>
 </html>

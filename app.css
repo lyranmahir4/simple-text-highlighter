@@ -1,0 +1,35 @@
+html, body {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    min-width:300px;
+}
+
+
+.btn-highlight{
+    height: 50px;
+    font-size: large;
+}
+.main-container{
+    padding: 1em;
+    border: 3px solid #fff;
+    padding: 20px;
+
+}
+label{
+    font-size: large;
+}
+
+/* .left{
+    width: 50%;
+    float: left;
+    padding: 20px;
+    border: 2px solid red;
+}
+.right{
+    width: 50%;
+    float: right;
+    padding: 20px;
+    border: 2px solid red;
+
+} */
